@@ -1,0 +1,35 @@
+{
+  "name": "jcpetrelli",
+  "owner": { "name": "Jacopo Castellano", "url": "https://jacopocastellano.com" },
+  "description": "Claude Code plugins by Jacopo Castellano: Brickwise, Rubricai, tab-tag and close-tab.",
+  "plugins": [
+    {
+      "name": "brickwise",
+      "title": "Brickwise",
+      "repo": "JCPetrelli/brickwise",
+      "category": "learning",
+      "summary": "Explains a codebase or any topic as an interactive 3D brick model"
+    },
+    {
+      "name": "rubricai",
+      "title": "Rubricai",
+      "repo": "JCPetrelli/rubricai",
+      "category": "productivity",
+      "summary": "Cleans up and completes the macOS Contacts address book, one reviewed plan at a time"
+    },
+    {
+      "name": "tab-tag",
+      "title": "tab-tag",
+      "repo": "JCPetrelli/tab-tag",
+      "category": "productivity",
+      "summary": "Gives each session's iTerm2 tab a colour and a one- or two-word name"
+    },
+    {
+      "name": "close-tab",
+      "title": "close-tab",
+      "repo": "JCPetrelli/close-tab",
+      "category": "productivity",
+      "summary": "Say \"close the session\" and Claude Code finishes, then closes its iTerm2 tab"
+    }
+  ]
+}

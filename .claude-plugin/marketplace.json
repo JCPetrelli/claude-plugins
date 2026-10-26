@@ -1,0 +1,105 @@
+{
+  "name": "jcpetrelli",
+  "description": "Claude Code plugins by Jacopo Castellano: Brickwise, Rubricai, tab-tag and close-tab.",
+  "owner": {
+    "name": "Jacopo Castellano",
+    "url": "https://jacopocastellano.com"
+  },
+  "plugins": [
+    {
+      "name": "brickwise",
+      "source": {
+        "source": "github",
+        "repo": "JCPetrelli/brickwise",
+        "ref": "v1.0.0",
+        "sha": "18234734b7c982212fc98ca5d872154b2d2c0789"
+      },
+      "description": "Explain any codebase or topic as an interactive 3D brick model: brick size = complexity, two-stage explode, hover labels, detail popups.",
+      "author": {
+        "name": "Jacopo Castellano",
+        "url": "https://jacopocastellano.com"
+      },
+      "homepage": "https://github.com/JCPetrelli/brickwise",
+      "license": "MIT",
+      "keywords": [
+        "skill",
+        "visualization",
+        "three.js",
+        "architecture",
+        "explainer",
+        "bricks"
+      ],
+      "category": "learning"
+    },
+    {
+      "name": "rubricai",
+      "source": {
+        "source": "github",
+        "repo": "JCPetrelli/rubricai"
+      },
+      "description": "Clean up and complete the macOS Contacts address book: exact copies, same-person merges, entity resolution by name, in-card duplicates, Title Case, and missing people from Apple Mail and WhatsApp Desktop. Every change is a reviewed plan with a vCard undo file.",
+      "author": {
+        "name": "Jacopo Castellano",
+        "url": "https://jacopocastellano.com"
+      },
+      "homepage": "https://github.com/JCPetrelli/rubricai",
+      "license": "MIT",
+      "keywords": [
+        "skill",
+        "macos",
+        "contacts",
+        "deduplication",
+        "entity-resolution",
+        "apple-mail",
+        "whatsapp"
+      ],
+      "category": "productivity"
+    },
+    {
+      "name": "tab-tag",
+      "source": {
+        "source": "github",
+        "repo": "JCPetrelli/tab-tag"
+      },
+      "description": "Names the iTerm2 tab with one or two uppercase words for what the session is about, and gives each session's tab a random colour.",
+      "author": {
+        "name": "Jacopo Castellano",
+        "url": "https://jacopocastellano.com"
+      },
+      "homepage": "https://github.com/JCPetrelli/tab-tag",
+      "license": "MIT",
+      "keywords": [
+        "mod",
+        "iterm2",
+        "terminal",
+        "tabs",
+        "hooks"
+      ],
+      "category": "productivity"
+    },
+    {
+      "name": "close-tab",
+      "source": {
+        "source": "github",
+        "repo": "JCPetrelli/close-tab",
+        "ref": "v1.0.0",
+        "sha": "49c52f9ee9e3e44cd26a9ef55cfad15cdcf39fb3"
+      },
+      "description": "Say \"close the session\" and Claude Code finishes the work, then closes its own iTerm2 tab.",
+      "author": {
+        "name": "Jacopo Castellano",
+        "url": "https://jacopocastellano.com"
+      },
+      "homepage": "https://github.com/JCPetrelli/close-tab",
+      "license": "MIT",
+      "keywords": [
+        "skill",
+        "iterm2",
+        "terminal",
+        "macos",
+        "workflow"
+      ],
+      "category": "productivity"
+    }
+  ]
+}
