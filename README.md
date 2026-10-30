@@ -2,7 +2,7 @@
 
 [![sync](https://github.com/JCPetrelli/claude-plugins/actions/workflows/sync.yml/badge.svg)](https://github.com/JCPetrelli/claude-plugins/actions/workflows/sync.yml) [![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-One [Claude Code](https://claude.com/claude-code) plugin marketplace for four tools. Add it once, then install the plugins you want.
+One [Claude Code](https://claude.com/claude-code) plugin marketplace for five tools. Add it once, then install the plugins you want.
 
 ```
 /plugin marketplace add JCPetrelli/claude-plugins
@@ -14,6 +14,7 @@ One [Claude Code](https://claude.com/claude-code) plugin marketplace for four to
 |---|---|---|---|
 | [Brickwise](https://github.com/JCPetrelli/brickwise) | Explains a codebase or any topic as an interactive 3D brick model | [1.0.0](https://github.com/JCPetrelli/brickwise/releases/tag/v1.0.0) | `/plugin install brickwise@jcpetrelli` |
 | [Rubricai](https://github.com/JCPetrelli/rubricai) | Cleans up and completes the macOS Contacts address book, one reviewed plan at a time | 0.1.0 (main) | `/plugin install rubricai@jcpetrelli` |
+| [Bookmarkwise](https://github.com/JCPetrelli/bookmarkwise) | Cleans up Chrome bookmarks in your own style, through a reviewed plan and a one-off extension | [0.1.0](https://github.com/JCPetrelli/bookmarkwise/releases/tag/v0.1.0) | `/plugin install bookmarkwise@jcpetrelli` |
 | [tab-tag](https://github.com/JCPetrelli/tab-tag) | Gives each session's iTerm2 tab a colour and a one- or two-word name | 0.2.0 (main) | `/plugin install tab-tag@jcpetrelli` |
 | [close-tab](https://github.com/JCPetrelli/close-tab) | Say "close the session" and Claude Code finishes, then closes its iTerm2 tab | [1.0.0](https://github.com/JCPetrelli/close-tab/releases/tag/v1.0.0) | `/plugin install close-tab@jcpetrelli` |
 <!-- plugins:end -->
@@ -38,6 +39,14 @@ Cleans up and completes the macOS Contacts address book: exact copies, same-pers
 
 [Repository](https://github.com/JCPetrelli/rubricai) · `/plugin install rubricai@jcpetrelli`
 
+## Bookmarkwise
+
+Cleans up your Chrome bookmarks in your own style. Claude asks how you like bookmarks named, organized and pruned, shows the plan as tables, and changes nothing until you say yes. A tiny one-off extension then applies the plan through Chrome itself, after a backup and a check that nothing changed since the plan was made. Undo comes from the backup.
+
+![Say "clean up my bookmarks": duplicates and junk links disappear, titles get your naming style](https://raw.githubusercontent.com/JCPetrelli/bookmarkwise/main/docs/bookmarkwise.gif)
+
+[Repository](https://github.com/JCPetrelli/bookmarkwise) · `/plugin install bookmarkwise@jcpetrelli`
+
 ## tab-tag
 
 Gives every Claude Code session's iTerm2 tab its own colour and a one- or two-word name from the first prompt, so you can tell five open sessions apart without clicking through them.
@@ -60,7 +69,7 @@ End your last message with "close the session". Claude Code finishes the work, w
 
 - `/plugin marketplace update jcpetrelli` fetches the newest list; `/plugin` shows what can be updated.
 - A plugin with releases is pinned to its latest release tag. A plugin without releases follows its main branch.
-- A GitHub Action ([sync.yml](.github/workflows/sync.yml)) checks the four repositories every day and on demand. When a new release or version appears, it updates [`.claude-plugin/marketplace.json`](.claude-plugin/marketplace.json) and the table above, and commits the change.
+- A GitHub Action ([sync.yml](.github/workflows/sync.yml)) checks the five repositories every day and on demand. When a new release or version appears, it updates [`.claude-plugin/marketplace.json`](.claude-plugin/marketplace.json) and the table above, and commits the change.
 
 ## Maintaining this list
 

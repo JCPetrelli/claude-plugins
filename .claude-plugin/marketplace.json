@@ -1,6 +1,6 @@
 {
   "name": "jcpetrelli",
-  "description": "Claude Code plugins by Jacopo Castellano: Brickwise, Rubricai, tab-tag and close-tab.",
+  "description": "Claude Code plugins by Jacopo Castellano: Brickwise, Rubricai, Bookmarkwise, tab-tag and close-tab.",
   "owner": {
     "name": "Jacopo Castellano",
     "url": "https://jacopocastellano.com"
@@ -52,6 +52,32 @@
         "entity-resolution",
         "apple-mail",
         "whatsapp"
+      ],
+      "category": "productivity"
+    },
+    {
+      "name": "bookmarkwise",
+      "source": {
+        "source": "github",
+        "repo": "JCPetrelli/bookmarkwise",
+        "ref": "v0.1.0",
+        "sha": "b48ac07ae5794a333c884e572f10bdd33c1573b7"
+      },
+      "description": "Clean up Chrome bookmarks in your own style: an interview about naming, folders and what to remove, a reviewed plan, and a one-off extension that applies it through Chrome's bookmarks API after a backup. Never edits the Bookmarks file.",
+      "author": {
+        "name": "Jacopo Castellano",
+        "url": "https://jacopocastellano.com"
+      },
+      "homepage": "https://github.com/JCPetrelli/bookmarkwise",
+      "license": "MIT",
+      "keywords": [
+        "skill",
+        "chrome",
+        "bookmarks",
+        "cleanup",
+        "deduplication",
+        "chromium",
+        "extension"
       ],
       "category": "productivity"
     },

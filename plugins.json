@@ -1,7 +1,10 @@
 {
   "name": "jcpetrelli",
-  "owner": { "name": "Jacopo Castellano", "url": "https://jacopocastellano.com" },
-  "description": "Claude Code plugins by Jacopo Castellano: Brickwise, Rubricai, tab-tag and close-tab.",
+  "owner": {
+    "name": "Jacopo Castellano",
+    "url": "https://jacopocastellano.com"
+  },
+  "description": "Claude Code plugins by Jacopo Castellano: Brickwise, Rubricai, Bookmarkwise, tab-tag and close-tab.",
   "plugins": [
     {
       "name": "brickwise",
@@ -16,6 +19,13 @@
       "repo": "JCPetrelli/rubricai",
       "category": "productivity",
       "summary": "Cleans up and completes the macOS Contacts address book, one reviewed plan at a time"
+    },
+    {
+      "name": "bookmarkwise",
+      "title": "Bookmarkwise",
+      "repo": "JCPetrelli/bookmarkwise",
+      "category": "productivity",
+      "summary": "Cleans up Chrome bookmarks in your own style, through a reviewed plan and a one-off extension"
     },
     {
       "name": "tab-tag",
